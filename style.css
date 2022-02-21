@@ -111,6 +111,10 @@ body{
     height: 969px;
 }
 
+#main_banner_i video{
+    width: 100%;
+}
+
 
 /*info*/
 
