@@ -1,0 +1,508 @@
+@font-face {
+    font-family: 'SeoulNamsanM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/SeoulNamsanM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OTWelcomeRA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Binggrae-Two';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #595858;
+}
+
+ul,ol{
+    list-style:none;
+}
+
+body{
+    font-family: "Noto Sans KR light";
+    font-size: 16px;
+    min-width: 1400;
+}
+
+
+/*header*/
+
+#header{
+    background:rgba(255, 255, 255, 0.7);
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+#header_inner{
+    margin: 0px auto;
+    width: 1320px;
+}
+
+.menu li a{
+    float: left;
+    padding-left: 100px;
+    padding-top: 56px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.icon li a{
+    float: left;
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.logo{
+    float: left;
+    padding-top: 10px;
+}
+
+.menu li{
+    float: left;
+}
+
+.icon li{
+    float: right;
+}
+
+
+/*mainbanner*/
+
+#main_banner{
+    height: 969px;
+}
+
+
+/*info*/
+
+#info{
+    margin: 0 auto;
+    width: 1151px;
+}
+
+#info img{
+    width: 100%;
+}
+
+#img h1{
+    padding-top: 120px;
+    padding-bottom: 11px;
+}
+
+#img h2{
+    float: left;
+    padding-right: 22px;
+}
+
+#img h3{
+    float: left;
+}
+
+#img{
+    float: left;
+}
+
+#text{
+    float: left;
+    padding: 236px 63px;
+}
+
+#text h1{
+    font-family: 'Bungee', cursive;
+    line-height: 60px;
+    color: #595858;
+    font-size: 53px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#text h2{
+    font-family: 'OTWelcomeRA';
+    color: #595858;
+    padding-top: 43px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#text p{
+    padding-top: 99px;
+    font-family: 'OTWelcomeRA';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+
+/*Sub_banner*/
+
+#sub_banner{
+    margin: 0 auto;
+}
+
+#sub_banner img{
+    width: 100%;
+}
+
+
+/*Cosmetic*/
+
+#cosmetic{
+    text-align: center;
+    height: 1300px;
+}
+
+#cosmetic> h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #191919;
+    padding-top: 130px;
+}
+
+#cosmetic> p{
+    font-family: 'Noto Sans KR';
+    color: #191919;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+#cosmetic_inner{
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 880px;
+}
+
+.cos1{
+    float: left;
+    padding-right: 64px;
+}
+
+.cos2{
+    float: left;
+}
+
+.cos3{
+    clear: both;
+    float: left;
+    padding-right: 58px;
+}
+
+.cos4{
+    float: left;
+}
+
+.cos1 h1:hover{
+    opacity: 0.5;
+    transition: all, 0.3s
+}
+
+.cos2 h1:hover{
+    opacity: 0.5;
+    transition: all, 0.3s
+}
+
+.cos3 h1:hover{
+    opacity: 0.5;
+    transition: all, 0.3s
+}
+
+.cos4 h1:hover{
+    opacity: 0.5;
+    transition: all, 0.3s
+}
+
+.cos1 h3, .cos2 h3, .cos3 h3, .cos4 h3{
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+.cos1 h4, .cos2 h4, .cos3 h4, .cos4 h4{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #191919;
+    margin-bottom: 20px;
+}
+
+.cos1 h5, .cos2 h5, .cos3 h5, .cos4 h5{
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.cos1 h6, .cos2 h6, .cos3 h6, .cos4 h6{
+    font-family: '나눔고딕';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+/*new item*/
+
+#newitem{
+    clear: both;
+    background-color: #fefee8;
+    height: 755px;
+    margin-top: 135px;
+}
+
+#newitem_inner{
+    margin: 0 auto;
+    width: 1320px;
+}
+
+#newitem .text{
+    float: left;
+    padding-right: 93px;
+    text-align: center;
+    padding-top: 240px;
+    padding-left: 85px;
+}
+
+#newitem .text h1{
+    font-family: 'Bungee', cursive;
+    font-size: 24px;
+    color: #958d8d;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newitem .text h2{
+    font-family: 'Bungee', cursive;
+    font-size: 45px;
+    color: #958d8d;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newitem .text h3{
+    font-family: 'GowunBatang-Regular';
+    font-size: 18px;
+    color: #958d8d;
+    line-height: 30px;
+    font-weight: normal;
+    font-style: normal;
+    padding-top: 35px;
+}
+
+#newitem .text a{
+    font-family: 'GowunBatang-Regular';
+    font-size: 18px;
+    color: #958d8d;
+    line-height: 30px;
+    font-weight: normal;
+    font-style: normal;
+    border: 1px solid #191919;
+    display: block;
+    width: 190px;
+    padding: 10px 0px;
+    margin: 35px 0 0 153px;
+}
+
+#newitem .img{
+    float: left;
+    padding-top: 115px;
+}
+
+#newitem_inner>div>h4>a:hover{
+    color: #ffffff;
+    background-color: #b6b4b4;
+    transition: all, 0.3s;
+}
+
+#newitem_inner h4 a{
+    display: block;
+}
+
+
+/*insta*/
+
+#arrow_relativ{
+    margin: 0 auto;
+    width: 1314px;
+    position: relative;
+}
+
+#insta{
+    text-align: center;
+}
+
+#insta h3{
+    font-family: 'Binggrae-Bold';
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+    color: #958d8d;
+    padding-top: 200px;
+}
+
+#insta h4{
+    font-family: 'Binggrae-Two';
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+    color: #958d8d;
+}
+
+#insta h5{
+    font-family: 'GowunBatang-Regular';
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: normal;
+    font-style: normal;
+    color: #958d8d;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.mb_next{right:-30px;}
+.mb_prev{left:-30px;}
+.mb_next:after, .mb_prev:after{
+font-size: 24px; font-weight:bold;}
+
+.mb_next, .mb_prev{color:rgb(121, 121, 121);}
+
+.swiper_slide>a:hover{
+    transform:scale(1.05,1.05);
+    transition: all, 0.5;
+}
+
+
+/*footer*/
+
+#footer{
+    background-color: #ebebeb;
+    margin-top: 199px;
+}
+
+#footer_inner{
+    margin: 0 auto;
+    width: 1320px;
+    text-align: center;
+}
+
+.icon2{
+    display: inline-block;
+}
+
+.icon2 h1{
+    float: left;
+    padding: 30px 20px 5px 20px;
+}
+
+#footer h2{
+    font-family: 'HeirofLightRegular';
+    font-size: 18px;
+    color: #4e443b;
+}
+
+.contact h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 30px 15px 10px 15px;
+    color: #4e443b;
+}
+
+.contact{
+    width: 513.03px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2{
+    width: 709px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.info2 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 0px 5px 0px 5px;
+    color: #4e443b;
+}
+
+.info3{
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.info3 h3{
+    font-family: 'OTWelcomeRA';
+    font-size: 14px;
+    float: left;
+    font-weight: normal;
+    padding: 0px 5px 10px 5px;
+    color: #4e443b;
+}
+
+#footer h4{
+    padding-bottom: 33px;
+}
+
+
+
+
+
+
+
